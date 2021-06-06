@@ -18,6 +18,6 @@ public class FollowMe : MonoBehaviour
     void Update()
     {
         var point = target.position;
-        agent.SetDestination(point); 
+        agent.SetDestination(point);
     }
 }
